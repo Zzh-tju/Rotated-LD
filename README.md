@@ -71,4 +71,6 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
   |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     | |
   |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     | [model](https://drive.google.com/file/d/1KzK5z4E-ybCD4ksoz93SKErIVVEX3CBC/view?usp=sharing) |
 
+## Acknowledgments
+
 Thank you to [yangxue0827](https://github.com/yangxue0827) for his help of data preparation and his exellent works for rotated object detection.
