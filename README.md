@@ -44,6 +44,10 @@ Please refer to [INSTALL.md](docs/en/install.md) for installation and dataset pr
 
 Please see [GETTING_STARTED.md](docs/en/get_started.md) for the basic usage of MMDetection.
 
+## Data Preparation
+
+Please refer to [data_preparation.md](tools/data/README.md) to prepare the data.
+
 ## Convert model
 
 If you find trained model very large, please refer to [publish_model.py](tools/model_converters/publish_model.py)
