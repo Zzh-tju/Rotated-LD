@@ -20,7 +20,7 @@ This is the code for our paper:
 
 LD is the extension of knowledge distillation on localization task, which utilizes the learned bbox distributions to transfer the localization dark knowledge from teacher to student.
 
-LD stably improves over GFocalV1 about ~2.0 AP without adding any computational cost! 
+LD stably improves over rotated detectors without adding any computational cost! 
 
 ## Introduction
 
