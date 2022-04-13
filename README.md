@@ -75,7 +75,7 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
  
  - Teacher detector adopts 2x training schedule (24 epochs), student detector adopts 1x (12 epochs)。We use DOTA-v1.0 train set for training, and val set for evaluation。
 
- - Number of GPU is 2, mini batchsize is 1 per GPU。We found that even though the batchsize wass fixed, single GPU training produced higher AP than double GPUs training.
+ - Number of GPU is 2, mini batchsize is 1 per GPU。We found that even though the batchsize was fixed, single GPU training produced higher AP than double GPUs training.
 
  - On DOTA, we found LD and classification KD are equally important, which can improve the baseline (such as R-RetinaNet) by more than 3.5 AP. And using the combination of LD and KD reaches the highest.
 
