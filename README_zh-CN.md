@@ -59,7 +59,7 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 
 ## 评估
 
-###  DOTA-1.0 val
+###  DOTA-v1.0 val
   Rotated-RetinaNet, LD + KD
   |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |  download  |
   | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: | :--------: |
@@ -72,6 +72,14 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
   |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     | |
   |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     | [model](https://drive.google.com/file/d/1KzK5z4E-ybCD4ksoz93SKErIVVEX3CBC/view?usp=sharing) |
  
+ #### 注： 
+ 
+ - 教师模型训练2x (24 epochs)，学生训练1x (12 epochs)。以DOTA-v1.0 train set为训练集，val set为测试集。
+
+ - 训练GPU数量为2，mini batchsize 1 per GPU。经发现，单卡训练可比双卡训练获得更高的精度，即便二者的batchsize相同。
+
+ - 经大量实验，在DOTA上，我们发现LD与KD同等重要，均可在baseline的基础上(如33.7 AP的R-RetinaNet)提高超过3.5 AP，综合LD与KD则达到最高。
+
  ## 致谢
  
 感谢[yangxue0827](https://github.com/yangxue0827)给予的数据集准备的帮助，以及他一系列杰出的旋转目标检测的工作。
