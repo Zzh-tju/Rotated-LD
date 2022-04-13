@@ -58,7 +58,7 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 
 ## Evaluation
 
-###  DOTA-1.0
+###  DOTA-1.0 val
   Rotated-RetinaNet, LD + KD
   |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |
   | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: |
