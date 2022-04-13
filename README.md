@@ -42,7 +42,7 @@ Please refer to [INSTALL.md](docs/en/install.md) for installation and dataset pr
 
 ## Get Started
 
-Please see [GETTING_STARTED.md](docs/en/getting_started.md) for the basic usage of MMDetection.
+Please see [GETTING_STARTED.md](docs/en/get_started.md) for the basic usage of MMDetection.
 
 ## Convert model
 
