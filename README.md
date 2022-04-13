@@ -38,11 +38,11 @@ Extensive experiments on the MS COCO, PASCAL VOC, and DOTA benchmarks demonstrat
 
 ## Installation
 
-Please refer to [INSTALL.md](docs/install.md) for installation and dataset preparation. Pytorch=1.5.1 and cudatoolkits=10.1 are recommended.
+Please refer to [INSTALL.md](docs/en/install.md) for installation and dataset preparation. Pytorch=1.5.1 and cudatoolkits=10.1 are recommended.
 
 ## Get Started
 
-Please see [GETTING_STARTED.md](docs/getting_started.md) for the basic usage of MMDetection.
+Please see [GETTING_STARTED.md](docs/en/getting_started.md) for the basic usage of MMDetection.
 
 ## Convert model
 
