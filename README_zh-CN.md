@@ -1,4 +1,4 @@
-# Localization Distillation for Dense Object Detection 
+# Localization Distillation for Object Detection 
 
 ### [English](README.md) | 简体中文
 
