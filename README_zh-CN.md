@@ -59,17 +59,17 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 
 ## 评估
 
-
 ###  DOTA-1.0 val
   Rotated-RetinaNet, LD + KD
-  |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |
-  | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: |
-  |       --        |      R-18       |        1x         |   33.7   |    58.0    |    42.3    |    4.7     |
-  |      R-34       |      R-18       |        1x         |   39.1   |    63.8    |    48.8    |    8.8     |
+  |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |  download  |
+  | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: | :--------: |
+  |       --        |      R-18       |        1x         |   33.7   |    58.0    |    42.3    |    4.7     | |
+  |      R-34       |      R-18       |        1x         |   39.1   |    63.8    |    48.8    |    8.8     | [model](https://drive.google.com/file/d/1ycpNhp4pj1efZNQrcydDmpmHuvnzIykN/view?usp=sharing) |
   
   GWD, LD + KD
-  |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |
-  | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: |
-  |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     |
-  |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     |
+  |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |  download  |
+  | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: | :--------: |
+  |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     | |
+  |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     | [model](https://drive.google.com/file/d/1KzK5z4E-ybCD4ksoz93SKErIVVEX3CBC/view?usp=sharing) |
  
+Thank you to [yangxue0827](https://github.com/yangxue0827) for his help of data preparation and his exellent works for rotated object detection.
