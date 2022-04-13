@@ -62,6 +62,7 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
   |      R-34       |      R-18       |        1x         |   39.1   |    63.8    |    48.8    |    8.8     |
   
   GWD, LD + KD
+  |     Teacher     |     Student     | Training schedule |    AP    |    AP50    |    AP70    |    AP90    |
   | :-------------: | :-------------: | :---------------: | :------: | :--------: | :--------: | :--------: |
   |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     |
   |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     |
