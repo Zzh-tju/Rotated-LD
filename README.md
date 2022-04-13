@@ -71,6 +71,14 @@ python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
   |       --        |      R-18       |        1x         |   37.1   |    63.1    |    46.7    |    6.2     | |
   |      R-34       |      R-18       |        1x         |   40.2   |    66.4    |    50.3    |    8.5     | [model](https://drive.google.com/file/d/1KzK5z4E-ybCD4ksoz93SKErIVVEX3CBC/view?usp=sharing) |
 
+ #### Note: 
+ 
+ - Teacher detector adopts 2x training schedule (24 epochs), student detector adopts 1x (12 epochs)。We use DOTA-v1.0 train set for training, and val set for evaluation。
+
+ - Number of GPU is 2, mini batchsize is 1 per GPU。We found that even though the batchsize wass fixed, single GPU training produced higher AP than double GPUs training.
+
+ - On DOTA, we found LD and classification KD are equally important, which can improve the baseline (such as R-RetinaNet) by more than 3.5 AP. And using the combination of LD and KD reaches the highest.
+
 ## Acknowledgments
 
 Thank you to [yangxue0827](https://github.com/yangxue0827) for his help of data preparation and his exellent works for rotated object detection.
