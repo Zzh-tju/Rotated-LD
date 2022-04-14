@@ -49,6 +49,22 @@ LD可稳定提高旋转检测器精度，几乎无附加计算消耗！
 
 参见[data_preparation.md](tools/data/README.md)。
 
+## 评估
+
+将文件 `tests/val_set.txt` 移动至 `/yourpath/dataset/DOTAv1/` 目录下。
+
+下载官网DOTA评估代码 https://github.com/CAPTAIN-WHU/DOTA_devkit
+
+替换文件 `dota_evaluation_task1.py` 为我们的 [dota_evaluation_task1.py](tests/dota_evaluation_task1.py), 并修改其中 `detpath`, `annopath` and `imagesetfile` 的路径为你的路径。
+
+在运行测试结束后，运行如下命令
+
+```python
+python yourpath/DOTA_devkit-master/dota_evaluation_task1.py
+```
+
+AP, AP50, AP55, ... , AP95 将在终端打印出来.
+
 ## 转换模型
 
 如果你发现蒸馏训练后的模型大小很大，你可以转换模型，参见[publish_model.py](tools/model_converters/publish_model.py)
