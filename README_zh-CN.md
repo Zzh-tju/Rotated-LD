@@ -2,6 +2,8 @@
 
 ### [English](README.md) | 简体中文
 
+### 水平框目标检测器的LD代码在 https://github.com/HikariTJU/LD, 基于MMDetection.
+
 ### 本代码基于MMRotate框架.
 
 这是我们论文的代码实现
