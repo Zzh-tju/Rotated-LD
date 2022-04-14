@@ -49,7 +49,7 @@ LD可稳定提高旋转检测器精度，几乎无附加计算消耗！
 
 参见[data_preparation.md](tools/data/README.md)。
 
-## 评估
+## 评估指南
 
 将文件 `tests/val_set.txt` 移动至 `/yourpath/dataset/DOTAv1/` 目录下。
 
@@ -73,7 +73,7 @@ AP, AP50, AP55, ... , AP95 将在终端打印出来.
 python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 ```
 
-## 评估
+## 评估结果
 
 ###  DOTA-v1.0 val
   Rotated-RetinaNet, LD + KD
