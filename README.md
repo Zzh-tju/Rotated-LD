@@ -48,6 +48,22 @@ Please see [GETTING_STARTED.md](docs/en/get_started.md) for the basic usage of M
 
 Please refer to [data_preparation.md](tools/data/README.md) to prepare the data.
 
+## Evaluation
+
+Download https://github.com/CAPTAIN-WHU/DOTA_devkit, which is an official evaluation tool for DOTA.
+
+Move the file `tests/val_set.txt` to `/yourpath/dataset/DOTAv1/`.
+
+Replace `dota_evaluation_task1.py` with our [dota_evaluation_task1.py](tests/dota_evaluation_task1.py), and modify the dictionary of `detpath`, `annopath` and `imagesetfile` to your own path.
+
+After running the test, run 
+
+```python
+python yourpath/DOTA_devkit-master/dota_evaluation_task1.py
+```
+
+AP, AP50, AP55, ... , AP95 will be printed in the terminal.
+
 ## Convert model
 
 If you find trained model very large, please refer to [publish_model.py](tools/model_converters/publish_model.py)
@@ -55,8 +71,6 @@ If you find trained model very large, please refer to [publish_model.py](tools/m
 ```python
 python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 ```
-
-## Evaluation
 
 ###  DOTA-1.0 val
   Rotated-RetinaNet, LD + KD
