@@ -50,11 +50,13 @@ Please refer to [data_preparation.md](tools/data/README.md) to prepare the data.
 
 ## Evaluation
 
-Download https://github.com/CAPTAIN-WHU/DOTA_devkit, which is an official evaluation tool for DOTA.
-
 Move the file `tests/val_set.txt` to `/yourpath/dataset/DOTAv1/`.
 
-Replace `dota_evaluation_task1.py` with our [dota_evaluation_task1.py](tests/dota_evaluation_task1.py), and modify the dictionary of `detpath`, `annopath` and `imagesetfile` to your own path.
+Download https://github.com/CAPTAIN-WHU/DOTA_devkit, which is an official evaluation tool for DOTA.
+
+Replace `dota_evaluation_task1.py` with our [dota_evaluation_task1.py](tests/dota_evaluation_task1.py).
+
+Open `dota_evaluation_task1.py` and modify `detpath`, `annopath` and `imagesetfile` to your own path.
 
 After running the test, run 
 
