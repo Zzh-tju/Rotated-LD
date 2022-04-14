@@ -48,7 +48,7 @@ Please see [GETTING_STARTED.md](docs/en/get_started.md) for the basic usage of M
 
 Please refer to [data_preparation.md](tools/data/README.md) to prepare the data.
 
-## Evaluation
+## Evaluation tool
 
 Move the file `tests/val_set.txt` to `/yourpath/dataset/DOTAv1/`.
 
@@ -73,6 +73,8 @@ If you find trained model very large, please refer to [publish_model.py](tools/m
 ```python
 python tools/model_converters/publish_model.py your_model.pth your_new_model.pth
 ```
+
+## Evaluation Results
 
 ###  DOTA-1.0 val
   Rotated-RetinaNet, LD + KD
