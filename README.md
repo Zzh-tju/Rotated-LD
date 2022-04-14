@@ -2,6 +2,8 @@
 
 ### English | [简体中文](README_zh-CN.md)
 
+### LD for horizontal bbox object detector is available at https://github.com/HikariTJU/LD.
+
 ### This repo is based on MMRotate.
 
 This is the code for our paper:
