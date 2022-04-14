@@ -48,7 +48,7 @@ Please see [GETTING_STARTED.md](docs/en/get_started.md) for the basic usage of M
 
 Please refer to [data_preparation.md](tools/data/README.md) to prepare the data.
 
-## Evaluation tool
+## Evaluation Tool
 
 Move the file `tests/val_set.txt` to `/yourpath/dataset/DOTAv1/`.
 
